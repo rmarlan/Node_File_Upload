@@ -2,7 +2,13 @@
   "name": "node_js_file_upload",
   "version": "0.0.1",
   "description": "Node_JS_File_Upload",
-  "main": "server.js",
+  "main": "server.js"
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+
+
+
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
